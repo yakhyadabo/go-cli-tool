@@ -54,7 +54,7 @@ source ~/.bashrc
 
 [source,go]
 ----
-go run go-cli-tool.go
+go run main.go
 ----
 
 
