@@ -19,9 +19,9 @@ var region string
 func init() {
 	rootCmd.AddCommand(generateCmd)
 
-	generateCmd.Flags().StringVarP(&component, "comp", "c", "", "Set the name of the component")
-	generateCmd.Flags().StringVarP(&environment, "env", "e", "", "Set the environment of the component")
-	generateCmd.Flags().StringVarP(&region, "reg", "r", "", "Set the region where the component will be deployed")
+	generateCmd.Flags().StringVarP(&component, "comp", "c", "", "The name of the component")
+	generateCmd.Flags().StringVarP(&environment, "env", "e", "", "The environment of the component")
+	generateCmd.Flags().StringVarP(&region, "reg", "r", "", "The region where the component will be deployed")
 }
 
 func generate (cmd *cobra.Command, args []string) {

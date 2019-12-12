@@ -6,8 +6,6 @@ import (
 	"os"
 )
 
-var developer string
-
 var rootCmd = &cobra.Command{
 	Use:   "go-cli-tool",
 	Short: "Template for go",
