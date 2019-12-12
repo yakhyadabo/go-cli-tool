@@ -1,0 +1,8 @@
+*
+!.gitattibutes
+!.gitignore
+!*.go
+!go.mod
+!go.sum
+!README.adoc
+!*/
